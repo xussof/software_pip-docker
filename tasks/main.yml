@@ -1,0 +1,6 @@
+---
+- name: Installing docker packages using pip
+  become: true
+  pip:
+    name: "docker"
+    state: present
